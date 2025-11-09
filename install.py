@@ -9,7 +9,7 @@ CONFIG_PATHS = {
         if os.name == "posix"  # macOS or Linux
         else r"%APPDATA%\Claude\claude_desktop_config.json"  # Windows
     ),
-    "cursor": "~/.cursor/mcp.json",
+    "lmstudio": "~/.lmstudio/mcp.json",
 }
 
 
